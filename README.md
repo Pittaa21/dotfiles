@@ -1,7 +1,7 @@
 # dotfiles
 dotfiles for hyprland configuration
 
---- FONTS ---\\
+--- FONTS ---
 Noto Sans
 FiraCode
 terminal: JetbrainsMono
