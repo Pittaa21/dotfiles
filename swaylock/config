@@ -1,0 +1,42 @@
+ignore-empty-password
+font= "Noto Sans Semibold"
+clock
+timestr=%R
+datestr=%a %e %B
+image=~/Pictures/Wallpapers/blueWall.png
+#background effect
+effect-blur=10x4
+#effect-pixelate=5
+# Show indicator
+indicator
+indicator-radius=200
+
+color=ffffff
+bs-hl-color=8c8fa1
+caps-lock-bs-hl-color=ffffff
+caps-lock-key-hl-color=ffffff
+inside-color=00000033
+inside-clear-color=ffffff00
+inside-caps-lock-color=00000000
+inside-ver-color=ffffff00
+inside-wrong-color=ffffff00
+key-hl-color=A6A09B
+layout-bg-color=00000000
+layout-border-color=00000000
+layout-text-color=8c8fa1
+line-color=00000000
+line-clear-color=00000000
+line-caps-lock-color=00000000
+line-ver-color=00000000
+line-wrong-color=00000000
+ring-color=ffffff
+ring-clear-color=ffffff
+ring-caps-lock-color=ffffff
+ring-ver-color=40a02b
+ring-wrong-color=e64553
+separator-color=00000000
+text-color=ffffff
+text-clear-color=ffffff
+text-caps-lock-color=ffffff
+text-ver-color=40a02b
+text-wrong-color=e64553

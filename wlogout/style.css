@@ -1,0 +1,52 @@
+* {
+    font-family: "Noto Sans";
+	font-size: 18px;
+	font-weight: bold;
+    background-image: none;
+    transition: 20ms;
+}
+
+window {
+    background-color: rgba(12, 12, 12, 0.1);
+}
+
+#lock, #logout, #suspend, #shutdown, #reboot {
+	border-radius: 20px;
+	border-color: #7287fd;
+	text-decoration-color: #cdd6f4;
+	color: #7287fd;
+	border-style: solid;
+	border-width: 3px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 25%;
+	background-color: rgba(12, 12, 12, 0.6);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: background-color 0.3s ease;
+}
+
+#lock:active, #logout:active, #suspend:active, #shutdown:active, #reboot:active, #lock:hover, #logout:hover, #suspend:hover, #shutdown:hover, #reboot:hover {
+	/* 20% Overlay 2, 80% mantle */
+	background-color: rgba(12, 12, 12, 0.7);
+}
+
+
+#lock {
+    background-image: image(url("icons/lock.svg"));
+}
+
+#logout {
+    background-image: image(url("icons/logout.svg"));
+}
+
+#suspend {
+    background-image: image(url("icons/suspend.svg"));
+}
+
+#shutdown {
+    background-image: image(url("icons/shutdown.svg"));
+}
+
+#reboot {
+    background-image: image(url("icons/reboot.svg"));
+}
