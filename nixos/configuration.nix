@@ -199,6 +199,8 @@
     sddm-astronaut # sddm theme
     jetbrains.clion # c/cpp ide
     jetbrains.pycharm # python ide
+    ghidra # binary
+    zapzap # whatsapp
   ];
 
   # Fonts
