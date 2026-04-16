@@ -39,7 +39,7 @@
     },
     "tray": {
         "icon-size": 21,
-        "spacing": 10,
+        "spacing": 10
     },
     "pulseaudio": {
         "format": "{icon} {volume}%",
@@ -59,7 +59,7 @@
         ]
     },
     "network": {
-        "interface": "wlp2s0",
+        "interface": "wlan0",
         "format": "{ifname}",
         "format-wifi": " ({signalStrength}%)",
         "format-ethernet": "{ipaddr}/{cidr} 󰊗",
@@ -68,7 +68,8 @@
         "tooltip-format-wifi": " ({signalStrength}%)",
         "tooltip-format-ethernet": "{ifname} ",
         "tooltip-format-disconnected": "Disconnected",
-        "on-click": "pgrep -x -f nm-connection-editor && pkill -x -f nm-connection-editor || nm-connection-editor","max-length": 50
+        "on-click": "pgrep -x -f nm-connection-editor && pkill -x -f nm-connection-editor || nm-connection-editor",
+        "max-length": 50
     },
     "battery": {
         "interval": 60,
@@ -77,13 +78,10 @@
             "critical": 15
         },
         "format": "{icon} {capacity}%",
-        "format-icons": [
-            "",
-            "",
-            "",
-            "",
-            ""
-        ],
+        "format-icons": {
+            "default": [ "","","","",""],
+            "charging": [""]
+        },
         "max-length": 25
     },
     "group/hardware": {
