@@ -1,21 +1,21 @@
 # dotfiles
 dotfiles for hyprland configuration
-
---- FONTS ---
+<br><br>
+--- FONTS ---<br>
 Noto Sans
 FiraCode
 terminal: JetbrainsMono
-
---- CURSOR ---
+<br>
+--- CURSOR ---<br>
 Bibata-Modern-Classic
-
---- ICONS ---
+<br>
+--- ICONS ---<br>
 Colloid-Dark
-
---- SHELL ---
+<br>
+--- SHELL ---<br>
 zsh -> oh-my-zsh -> powerlevel10k
-
---- TOOLS / APP installed ---
+<br>
+--- TOOLS / APP installed ---<br>
 awww with the daemon
 bluetoothctl
 yay
@@ -50,8 +50,8 @@ whatsapp-linux-desktop
 wlogout
 wl-copy wl-paste
 zsh
-
---- MOUNTING ---
+<br>
+--- MOUNTING ---<br>
 lsblk -o NAME,FSTYPE,LABEL,SIZE,MOUNTPOINT   vedere le partizioni
 sudo mount -v /dev/partizione_sorgente /mnt/destinazione
 sudo umount /dev/partizione_sorgente -l
